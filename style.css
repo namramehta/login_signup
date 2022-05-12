@@ -1,0 +1,79 @@
+html{
+    min-height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-alfonso-escalante-2533092.jpg);
+    top: 0;
+    left: 0;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 100px;
+    background-position: center;
+}
+.loginbox{
+    width: 320px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 430px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:70px 30px; 
+}
+.dp{
+    width: 130px;
+    height: 110px;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.loginbox input{
+    width:100%;
+    margin-bottom: 20px;
+
+}
+.loginbox input[type="email"], input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
