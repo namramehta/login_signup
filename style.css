@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(pexels-alfonso-escalante-2533092.jpg);
+    max-width: 100%;
     top: 0;
     left: 0;
     background-size: cover;
@@ -15,6 +16,7 @@ body{
 }
 .loginbox{
     width: 320px;
+    max-width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 430px;
     background: #000;
